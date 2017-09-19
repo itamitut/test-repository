@@ -1,2 +1,2 @@
-# test-repository
+# test repository
 Selenium-examples
