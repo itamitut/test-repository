@@ -20,18 +20,16 @@ public class FirstTest {
         wait = new WebDriverWait(driver, 10);
     }
     @Test
-    public void FirstTest(){
+    public void test() {
         driver.navigate().to("http://www.google.com");
-        driver.findElement(By.name("q")).sendKeys("webdriver",Keys.ENTER );
+        driver.findElement(By.name("q")).sendKeys("webdriver", Keys.ENTER);
+        wait.until(titleIs("webdriver - Поиск в Google"));
         try {
-            Thread.sleep(5000);   //Полюбоваться на результаты поиска
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        wait.until(titleIs("webdriver - Поиск в Google"));
     }
-
     @After
     public void stop(){
         driver.quit();
