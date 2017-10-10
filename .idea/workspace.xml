@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2309c524-d092-4f5e-8de6-c97f77d89a08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Registration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/AddNewProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Cart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,23 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Countries.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Countries.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
-              <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Registration.java">
+      <file leaf-file-name="Cart.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1161">
-              <caret line="42" column="73" lean-forward="true" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
+              <caret line="54" column="74" lean-forward="false" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -397,6 +386,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Countries.java" />
         <option value="$PROJECT_DIR$/src/test/java/CheckDuck.java" />
         <option value="$PROJECT_DIR$/src/test/java/Registration.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AddNewProduct.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Cart.java" />
       </list>
     </option>
   </component>
@@ -421,20 +412,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sep2017" type="58d84e3e:PackageViewProjectNode" />
-              <item name="sep2017" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -482,6 +459,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sep2017" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sep2017" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,7 +494,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Registration">
+  <component name="RunManager" selected="JUnit.Cart">
+    <configuration name="AddNewProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="sep2017_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddNewProduct" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="sep2017_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Cart" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="CheckDuck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="sep2017_test" />
@@ -533,26 +564,6 @@
       <option name="MAIN_CLASS_NAME" value="Countries" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Countries.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="sep2017_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Countries" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -604,7 +615,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Registration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Registration" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="sep2017_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -704,21 +715,22 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTest.FirstTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Countries" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Countries.test" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Registration" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTest.FirstTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Countries" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.LoginCrome" />
       <item index="4" class="java.lang.String" itemvalue="JUnit.CheckDuck" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.Registration" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AddNewProduct" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.Cart" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Registration" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CheckDuck" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Countries" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginCrome" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Countries.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Cart" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AddNewProduct" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CheckDuck" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Countries" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LoginCrome" />
       </list>
     </recent_temporary>
   </component>
@@ -747,35 +759,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Registration - 2017.10.09 at 12h 36m 32s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 14h 31m 53s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 12h 38m 52s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 14h 36m 54s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 12h 41m 02s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 14h 37m 21s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 12h 42m 12s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 14h 38m 52s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 12h 50m 16s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 14h 59m 10s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 12h 54m 49s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 15h 16m 35s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 12h 55m 38s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 15h 20m 24s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 12h 59m 07s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 15h 34m 38s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 13h 14m 55s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 15h 52m 31s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Registration - 2017.10.09 at 13h 16m 15s.xml">
-      <configuration name="Registration" configurationId="JUnit" />
+    <history-entry file="Cart - 2017.10.10 at 15h 56m 20s.xml">
+      <configuration name="Cart" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -801,7 +813,6 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9038005" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -819,6 +830,7 @@
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -831,7 +843,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="60" />
+      <option name="time" value="70" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -845,22 +857,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Firefox.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/DuckSticker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1591">
-          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DuckShop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1290">
@@ -1119,9 +1115,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-344">
           <caret line="55" column="84" lean-forward="false" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/classes/FirstTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1161">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/classes/DuckSticker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/test/classes/DuckShop.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2451">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Countries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="86" column="13" lean-forward="true" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1133,58 +1164,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/test/classes/FirstTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1161">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#1231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/test/classes/DuckSticker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-903">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/test/classes/DuckShop.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2451">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/test/classes/Countries.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
           <caret line="36" column="86" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#4493#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Countries.java">
+    <entry file="file://$PROJECT_DIR$/out/test/classes/Registration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="43">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddNewProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Registration.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1161">
-          <caret line="42" column="73" lean-forward="true" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
+          <caret line="54" column="74" lean-forward="false" selection-start-line="54" selection-start-column="74" selection-end-line="54" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
